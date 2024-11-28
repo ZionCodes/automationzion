@@ -1,6 +1,27 @@
 <script>
     import { fly } from "svelte/transition";
+    import SvelteSeo from "svelte-seo";
+    import Cover from '$lib/images/AutomationZion-cover.png'
 </script>
+
+<SvelteSeo
+  title='Contact Me | Get in Touch with Automation Zion'
+  description="Have a question or need help with workflow automation? Contact me today to discuss your project and start building smarter systems."
+  openGraph={{
+    title: `Contact Me | Get in Touch with Automation Zion`,
+    description:`Have a question or need help with workflow automation? Contact me today to discuss your project and start building smarter systems.`,
+    image: {Cover},
+    type: "website",
+    site_name: "Relocate for Work",
+  }}
+  twitter={{
+    card: "summary",
+    site: "@RelocateforWork",
+    title: `Contact Me | Get in Touch with Automation Zion`,
+    description:`Have a question or need help with workflow automation? Contact me today to discuss your project and start building smarter systems.`,
+    image: {Cover},
+  }}
+/>
 
 
 <div class="opacity: 1; transform: none;" in:fly={{ y:100, duration:500, opacity:0 }}>

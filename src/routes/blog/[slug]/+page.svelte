@@ -14,11 +14,11 @@
     description:`${post.introduction}`,
     image: `http://127.0.0.1:8090/api/files/posts/${post.id}/${post.thumbnail}`,
     type: "website",
-    site_name: "Relocate for Work",
+    site_name: "Automation Zion",
   }}
   twitter={{
     card: "summary",
-    site: "@RelocateforWork",
+    site: "@AutomationZion",
     title: `${post.title}`,
     description:`${post.introduction}`,
     image: `http://127.0.0.1:8090/api/files/posts/${post.id}/${post.thumbnail}`,
