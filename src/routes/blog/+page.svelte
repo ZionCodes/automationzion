@@ -13,7 +13,7 @@
   openGraph={{
     title: `Automation Zion Blog | Workflow Automation Tips`,
     description:`Explore tutorials, insights, and ideas on systems and workflow automation.`,
-    image: {Cover},
+    image: `${Cover}`,
     type: "website",
     site_name: "Relocate for Work",
   }}
@@ -22,7 +22,7 @@
     site: "@AutomationZion",
     title: `Automation Zion Blog | Workflow Automation Tips`,
     description:`Explore tutorials, insights, and ideas on systems and workflow automation.`,
-    image: {Cover},
+    image: `${Cover}`,
   }}
 />
 
