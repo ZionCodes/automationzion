@@ -12,7 +12,7 @@
   openGraph={{
     title: `${post.title}`,
     description:`${post.introduction}`,
-    image: `http://127.0.0.1:8090/api/files/posts/${post.id}/${post.thumbnail}`,
+    image: `https://call-until.pockethost.io/api/files/posts/${post.id}/${post.thumbnail}`,
     type: "website",
     site_name: "Automation Zion",
   }}
@@ -21,15 +21,15 @@
     site: "@AutomationZion",
     title: `${post.title}`,
     description:`${post.introduction}`,
-    image: `http://127.0.0.1:8090/api/files/posts/${post.id}/${post.thumbnail}`,
+    image: `https://call-until.pockethost.io/api/files/posts/${post.id}/${post.thumbnail}`,
   }}
 />
 
 <!-- Blog Article -->
-<div class="max-w-3xl px-4 pt-6 lg:pt-10 pb-12 sm:px-6 lg:px-8 mx-auto border border-red-600">
+<div class="max-w-3xl px-4 pt-6 lg:pt-10 pb-12 sm:px-6 lg:px-8 mx-auto">
     <div class="max-w-2xl">
-      <div class="flex justify-between items-center mb-6">
-        <div class="flex w-full sm:items-center gap-x-5 sm:gap-x-3 border border-blue-800">
+      <div class="flex justify-center items-center mb-6">
+        <div class="flex w-full justify-center sm:items-center gap-x-5 sm:gap-x-3">
           <div class="shrink-0">
             <img class="size-12 rounded-full" src="https://images.unsplash.com/photo-1669837401587-f9a4cfe3126e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Avatar">
           </div>
@@ -73,10 +73,10 @@
       </div>
   
       <!-- Content -->
-      <div class="space-y-5 md:space-y-8 w-full border border-green-900">
+      <div class="space-y-5 md:space-y-8 w-full">
         <div class="space-y-3">
           <h2 class="text-2xl text-gray-900 font-bold md:text-3xl">{post.title}</h2>
-          <div class="prose text-gray-500 text-base leading-relaxed">{@html post.article}</div>
+          <div class="prose text-gray-500 text-base leading-relaxed max-w-none">{@html post.article}</div>
         </div>
       </div>
     </div>

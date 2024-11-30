@@ -12,11 +12,11 @@
     description:`Have a question or need help with workflow automation? Contact me today to discuss your project and start building smarter systems.`,
     image: {Cover},
     type: "website",
-    site_name: "Relocate for Work",
+    site_name: "Automation Zion",
   }}
   twitter={{
     card: "summary",
-    site: "@RelocateforWork",
+    site: "@RAutomationZion",
     title: `Contact Me | Get in Touch with Automation Zion`,
     description:`Have a question or need help with workflow automation? Contact me today to discuss your project and start building smarter systems.`,
     image: {Cover},
@@ -30,12 +30,12 @@
     </div>
 
     <div class="flex flex-wrap gap-2 mt-8">
-        <a href="/blog">
+        <a href="/blog" class="hover:scale-110">
             <button class=" hover:bg-gray-700 text-white text-sm transition-colors px-2 py-1 rounded-md relative border border-gray-500 bg-gray-900">
                 <span class="relative z-10">Email</span>
             </button>
         </a>
-        <a href="/tools">
+        <a href="/tools" class="hover:scale-110">
             <button class="text-white hover:bg-gray-700 text-sm transition-colors px-2 py-1 rounded-md relative border border-gray-500 bg-gray-900">
                 <span class="relative z-10">Book a call</span>
             </button>
