@@ -12,7 +12,7 @@
   openGraph={{
     title: `My Work | Projects and Certifications by Automation Zion`,
     description:`Explore my portfolio of workflow automation projects, certifications, and achievements. See how I help businesses save time and scale efficiently.`,
-    image: {Cover},
+    image: `${Cover}`,
     type: "website",
     site_name: "Automation Zion",
   }}
@@ -21,7 +21,7 @@
     site: "@AutomatonZion",
     title: `My Work | Projects and Certifications by Automation Zion`,
     description:`Explore my portfolio of workflow automation projects, certifications, and achievements. See how I help businesses save time and scale efficiently.`,
-    image: {Cover},
+    image: `${Cover}`,
   }}
 />
 

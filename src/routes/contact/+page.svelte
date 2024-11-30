@@ -10,7 +10,7 @@
   openGraph={{
     title: `Contact Me | Get in Touch with Automation Zion`,
     description:`Have a question or need help with workflow automation? Contact me today to discuss your project and start building smarter systems.`,
-    image: {Cover},
+    image: `${Cover}`,
     type: "website",
     site_name: "Automation Zion",
   }}
@@ -19,7 +19,7 @@
     site: "@RAutomationZion",
     title: `Contact Me | Get in Touch with Automation Zion`,
     description:`Have a question or need help with workflow automation? Contact me today to discuss your project and start building smarter systems.`,
-    image: {Cover},
+    image: `${Cover}`,
   }}
 />
 

@@ -12,7 +12,7 @@
   openGraph={{
     title: `Tools I Use | Workflow Automation Tools by Automation Zion`,
     description:`Discover the powerful tools I use to create custom systems and workflow automations, including Zapier, Make, and other cutting-edge software.`,
-    image: {Cover},
+    image: `${Cover}`,
     type: "website",
     site_name: "Automation Zion",
   }}
@@ -21,7 +21,7 @@
     site: "@Automation Zion",
     title: `Tools I Use | Workflow Automation Tools by Automation Zion`,
     description:`Discover the powerful tools I use to create custom systems and workflow automations, including Zapier, Make, and other cutting-edge software.`,
-    image: {Cover},
+    image: `${Cover}`,
   }}
 />
 
