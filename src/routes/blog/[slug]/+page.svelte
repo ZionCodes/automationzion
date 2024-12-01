@@ -5,7 +5,6 @@
     const { post } = data; // Extract the record from data
     console.log(post); // Log the blog post record passed from the server
 </script>
-
 <SvelteSeo
   title='{post.title}'
   description="{post.introduction}"

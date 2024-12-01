@@ -7,7 +7,7 @@
 	import Newsletter from '$lib/Newsletter.svelte';
 	import Tools from '$lib/Tools.svelte';
     import SvelteSeo from "svelte-seo";
-    export let data;
+    let { data } = $props();
 </script>
 
 <SvelteSeo

@@ -5,7 +5,7 @@
 
 <div>
     <h1 class="font-medium text-gray-900 mb-4 text-lg" in:fly={{ y:100, duration:500, opacity:0 }}>Projects</h1>
-    <div class="grid grid-cols-3 md:grid-cols-3 w-full gap-x-10 gap-y-5" in:fly={{ y:100, duration:500, opacity:0 }}>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-full gap-x-4 gap-y-4" in:fly={{ y:100, duration:500, opacity:0 }}>
         <div class="border border-gray-200 rounded-lg p-4 hover:bg-gray-100 hover:scale-105">
             <a href="/">
                 <img src="{image}" alt="" class="max-h-48 w-full rounded-lg mb-3" style="color: transparent;">

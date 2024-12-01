@@ -3,7 +3,7 @@
 	import Newsletter from "$lib/Newsletter.svelte";
     import SvelteSeo from "svelte-seo";
     import Cover from '$lib/images/AutomationZion-cover.png'
-    export let data;
+    let { data } = $props();
 
 </script>
 
