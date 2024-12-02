@@ -7,7 +7,7 @@
 </script>
 
 <div class="flex items-center flex-wrap gap-2 mb-8">
-    <a href="/">
+    <a href="/" aria-label="Home Page">
         <button class={`text-sm transition-colors px-2 py-1 rounded-md relative ${
             isActive('/') ? 'text-white' : 'text-gray-500 hover:text-gray-900'
         }`}>
@@ -17,7 +17,7 @@
             {/if}
         </button>
     </a>
-    <a href="/work">
+    <a href="/work" aria-label="Work Page">
         <button class={`text-sm transition-colors px-2 py-1 rounded-md relative ${
             isActive('/work') ? 'text-white' : 'text-gray-500 hover:text-gray-900'
         }`}>
@@ -27,7 +27,7 @@
             {/if}
         </button>
     </a>
-    <a href="/blog">
+    <a href="/blog" aria-label="Blog Page">
         <button class={`text-sm transition-colors px-2 py-1 rounded-md relative ${
             isActive('/blog') ? 'text-white' : 'text-gray-500 hover:text-gray-900'
         }`}>
@@ -37,7 +37,7 @@
             {/if}
         </button>
     </a>
-    <a href="/tools">
+    <a href="/tools" aria-label="Tools Page">
         <button class={`text-sm transition-colors px-2 py-1 rounded-md relative ${
             isActive('/tools') ? 'text-white' : 'text-gray-500 hover:text-gray-900'
         }`}>
@@ -47,7 +47,7 @@
             {/if}
         </button>
     </a>
-    <a href="/contact">
+    <a href="/contact" aria-label="Contact Page">
         <button class={`text-sm transition-colors px-2 py-1 rounded-md relative ${
             isActive('/contact') ? 'text-white' : 'text-gray-500 hover:text-gray-900'
         }`}>
