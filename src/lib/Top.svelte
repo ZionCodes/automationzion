@@ -6,9 +6,9 @@
 </script>
 
 <div>
-    <a href="/">
+    <div>
         <img src="" alt="" loading="eager" width="120" height="120" class='rounded-full object-fit w-[50px] h-[50px]' style="color:transparent">
-    </a>
+    </div>
     <h1 class="font-medium text-gray-900 mt-2 text-xl font-heading">Zion Gonet</h1>
     <p class="text-gray-500">Automation Specialist</p>
     <div class="flex flex-row justify-between items-center mt-6">

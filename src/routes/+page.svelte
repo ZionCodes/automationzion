@@ -32,7 +32,7 @@
 
 <div class="opacity: 1; transform: none;" in:fly={{ y:100, duration:500, opacity:0 }}>
     <div>
-        <p class="text-gray-500">A Roman emperor and Stoic philosopher who wrote reflective thoughts in his "Meditations," pondering on duty, virtue, and the transience of life.</p>
+        <p class="text-gray-500">I’m Zion Gonet - a developer and automation specialist passionate about making life simpler through technology. I combine creativity and technical know-how to build smart, user-friendly systems and solutions that help people and businesses thrive in the digital age.</p>
     </div>
     
     <Experience />
